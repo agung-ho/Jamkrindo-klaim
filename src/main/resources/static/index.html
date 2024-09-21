@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jamkrindo</title>
+    <script src="jquery-3.7.1.min.js"></script>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <style>
+        table {
+            border-collapse: collapse;
+            border: solid 1px gray;
+            width: 100%;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+
+        .num{
+            text-align: right;
+        }
+        th{
+            text-align: center;
+            border: solid 1px #c7c1c1;
+        }
+        td{
+            border: solid 1px #c7c1c1;
+        }
+        .total{
+            background-color: #6c747c;
+            color: white;
+        }
+        .subtotal{
+            background-color: #17a2b8;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<H1 style="text-align: center; margin-bottom: 20px">REPORT KLAIM</H1>
+<div class="container" style="width: 500px; margin-bottom: 20px;">
+    <div class="mb-3" >
+        <label for="idWilker" class="form-label">Pilih Wilayah Kerja</label>
+        <select class="form-select" id="idWilker">
+            <option value="1">	Kantor Pusat Jakarta	</option>
+            <option value="2">	Kantor Cabang Jakarta	</option>
+            <option value="3">	Kantor Cabang Bandung	</option>
+            <option value="4">	Kantor Cabang Semarang	</option>
+            <option value="5">	Kantor Cabang Surabaya	</option>
+            <option value="6">	Kantor Cabang Pekanbaru	</option>
+            <option value="7">	Kantor Cabang Makassar	</option>
+            <option value="8">	Kantor Cabang Palembang	</option>
+            <option value="9">	Kantor Cabang Pontianak	</option>
+            <option value="10">	Kantor Cabang Samarinda	</option>
+            <option value="11">	Kantor Cabang Denpasar	</option>
+            <option value="12">	Kantor Cabang Medan	</option>
+            <option value="13">	Kantor Cabang Mataram	</option>
+            <option value="14">	Kantor Cabang Kupang	</option>
+            <option value="15">	Kantor Cabang Palangkaraya	</option>
+            <option value="16">	Kantor Cabang Banjarmasin	</option>
+            <option value="17">	Kantor Cabang Manado	</option>
+            <option value="18">	Kantor Cabang Jayapura	</option>
+            <option value="19">	Kantor Cabang Jambi	</option>
+            <option value="20">	Kantor Cabang Khusus Jakarta	</option>
+            <option value="21">	Kantor Cabang Yogyakarta	</option>
+            <option value="22">	Kantor Cabang Bandar Lampung	</option>
+            <option value="23">	Kantor Cabang Banda Aceh	</option>
+            <option value="24">	Kantor Cabang Padang	</option>
+            <option value="25">	Kantor Cabang Kendari	</option>
+            <option value="26">	Kantor Cabang Serang	</option>
+            <option value="27">	Kantor Cabang Tanjung Pinang	</option>
+            <option value="28">	Kantor Cabang Palu	</option>
+            <option value="29">	Kantor Cabang Bengkulu	</option>
+            <option value="30">	Kantor Cabang Pangkal Pinang	</option>
+            <option value="31">	Kantor Cabang Tarakan	</option>
+            <option value="32">	Kantor Cabang Gorontalo	</option>
+            <option value="33">	Kantor Cabang Mamuju	</option>
+            <option value="34">	Kantor Cabang Ambon	</option>
+            <option value="35">	Kantor Cabang Ternate	</option>
+            <option value="36">	Kantor Cabang Manokwari	</option>
+            <option value="37">	Kantor Cabang Tangerang	</option>
+            <option value="38">	Kantor Cabang Cirebon	</option>
+            <option value="39">	Kantor Cabang Purwakarta	</option>
+            <option value="40">	Kantor Cabang Tasikmalaya	</option>
+            <option value="41">	Kantor Cabang Sukabumi	</option>
+            <option value="42">	Kantor Cabang Pekalongan	</option>
+            <option value="43">	Kantor Cabang Kudus	</option>
+            <option value="44">	Kantor Cabang Purwokerto	</option>
+            <option value="45">	Kantor Cabang Solo	</option>
+            <option value="46">	Kantor Cabang Malang	</option>
+            <option value="47">	Kantor Cabang Madiun	</option>
+            <option value="48">	Kantor Cabang Kediri	</option>
+            <option value="49">	Kantor Cabang Banyuwangi	</option>
+            <option value="50">	Kantor Cabang Balige	</option>
+            <option value="51">	Kantor Cabang Batam	</option>
+            <option value="52">	Kantor Cabang Balikpapan	</option>
+            <option value="53">	Kantor Cabang Palopo	</option>
+            <option value="54">	Kantor Cabang Sumbawa Besar	</option>
+            <option value="55">	Kantor Cabang Sorong	</option>
+            <option value="56">	Kantor Cabang Parepare	</option>
+            <option value="57">	Kantor Cabang Bitung	</option>
+        </select>
+    </div>
+    <div class="mb-3" >
+        <label for="periode" class="form-label">Pilih Periode</label>
+        <input type="date" id="periode" name="periode" class="form-control">
+    </div>
+    <button id="submit" type="submit" value="Submit">Generate Report</button>
+</div>
+<div class="container" style="width: 500px;">
+    <h3 id="kosong" style="display: none">Data Kosong</h3>
+</div>
+<div class="container" >
+    <table id="klaim">
+
+    </table>
+</div>
+<script>
+    let response="";
+    $(document).ready(function(){
+        $("#submit").click(function(){
+            console.log("submit");
+            $("#klaim").empty();
+
+            $.get("/klaim/rekap?idWilker="+$("#idWilker")[0].value+"&periode="+$("#periode").val(), function(data, status){
+                response = data;
+                total = response.total;
+                if(total.jumlahNasabah != 0) {
+                    $("#kosong").css("display","none")
+                    let html ="";
+                    html += "<tr><th>LOB</th>\n" +
+                        "        <th>PENYEBAB KLAIM</th>\n" +
+                        "        <th>JUMLAH NASABAH</th>\n" +
+                        "        <th>BEBAN KLAIM</th>\n" +
+                        "    </tr>";
+                    response.rekap.forEach( function (value, index){
+                        console.log(index)
+                        console.log(value)
+                        response.detail.filter((item) => item.subCob == value.subCob).forEach( function (value2, index2){
+                                console.log(index2)
+                                console.log(value2)
+                                html +=
+                                    "<tr>"+
+                                    "<td>"+value2.subCob+"</td>"
+                                    +"<td>"+value2.penyebabKlaim+"</td>"
+                                    +"<td class='num'>"+value2.jumlahNasabah.toLocaleString(window.document.documentElement.lang)+"</td>"
+                                    +"<td class='num'>"+value2.bebanKlaim.toLocaleString(window.document.documentElement.lang)+"</td>"
+                                    +"</tr>"
+                            }
+                        );
+                        html +=
+                            "<tr class='subtotal'>"+
+                            "<td colspan='2'> Subtotal "+value.subCob+"</td>"
+                            +"<td class='num'>"+value.jumlahNasabah.toLocaleString(window.document.documentElement.lang)+"</td>"
+                            +"<td class='num'>"+value.bebanKlaim.toLocaleString(window.document.documentElement.lang)+"</td>"
+                            +"</tr>"
+                        }
+                    );
+
+                    html +=
+                        "<tr class='total'>" +
+                        "<td colspan='2'> Total</td>"
+                        + "<td class='num'>" + total.jumlahNasabah.toLocaleString(window.document.documentElement.lang) + "</td>"
+                        + "<td class='num'>" + total.bebanKlaim.toLocaleString(window.document.documentElement.lang) + "</td>"
+                        + "</tr>"
+
+
+                    $("#klaim").append(html);
+                }else{
+                    $("#kosong").css("display","block")
+                }
+            });
+
+        });
+    });
+</script>
+</body>
+</html>

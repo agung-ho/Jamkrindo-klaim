@@ -1,0 +1,475 @@
+2024-09-22T01:36:26.123+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] i.c.j.t.JamkrindoReportKlaimApplication  : Starting JamkrindoReportKlaimApplication using Java 17.0.11 with PID 2723 (/Users/agungnugroho/jamkrindo/jamkrindo/target/classes started by agungnugroho in /Users/agungnugroho/jamkrindo/jamkrindo)
+2024-09-22T01:36:26.125+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] i.c.j.t.JamkrindoReportKlaimApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-09-22T01:36:26.473+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-22T01:36:26.514+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interface.
+2024-09-22T01:36:26.517+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-22T01:36:26.525+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 2 JPA repository interfaces.
+2024-09-22T01:36:27.083+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-22T01:36:27.093+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-22T01:36:27.093+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-22T01:36:27.131+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-22T01:36:27.131+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 975 ms
+2024-09-22T01:36:27.177+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Starting...
+2024-09-22T01:36:27.491+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@647b9364
+2024-09-22T01:36:27.493+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Start completed.
+2024-09-22T01:36:27.536+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-22T01:36:27.600+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-22T01:36:27.629+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-22T01:36:27.980+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-22T01:36:28.051+07:00  WARN 2723 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-22T01:36:28.051+07:00  WARN 2723 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-22T01:36:28.778+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-22T01:36:28.781+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:36:28.787+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Starting...
+2024-09-22T01:36:28.799+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@50628080
+2024-09-22T01:36:28.799+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Start completed.
+2024-09-22T01:36:28.803+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-22T01:36:28.805+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-22T01:36:28.822+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-22T01:36:28.823+07:00  WARN 2723 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-22T01:36:28.824+07:00  WARN 2723 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-22T01:36:28.846+07:00  WARN 2723 --- [Jamkrindo-Report-Claim] [main] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId
+2024-09-22T01:36:28.846+07:00  WARN 2723 --- [Jamkrindo-Report-Claim] [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId
+2024-09-22T01:36:28.893+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-22T01:36:28.893+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:36:29.105+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-22T01:36:29.237+07:00  WARN 2723 --- [Jamkrindo-Report-Claim] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-22T01:36:29.254+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-09-22T01:36:29.501+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-22T01:36:29.509+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [main] i.c.j.t.JamkrindoReportKlaimApplication  : Started JamkrindoReportKlaimApplication in 3.693 seconds (process running for 4.272)
+2024-09-22T01:36:48.248+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-22T01:36:48.249+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-22T01:36:48.251+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-09-22T01:36:59.990+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [http-nio-8080-exec-5] i.c.jamkrindo.test.service.KlaimService  :  === Mulai mengirim data wilayah kerja 2 periode Tue Jan 10 00:00:00 WIB 2023 ===
+2024-09-22T01:37:00.038+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [http-nio-8080-exec-5] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@31245f98 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@31245f98, jumlahNasabah=5, bebanKlaim=7.942742682E8)
+2024-09-22T01:37:00.041+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [http-nio-8080-exec-5] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@7808e89b RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@7808e89b, jumlahNasabah=1, bebanKlaim=0.0)
+2024-09-22T01:37:00.043+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [http-nio-8080-exec-5] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@79f42e82 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@79f42e82, jumlahNasabah=1, bebanKlaim=0.0)
+2024-09-22T01:37:00.043+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [http-nio-8080-exec-5] i.c.jamkrindo.test.service.KlaimService  : === Sukses mengirim data Rekap Klaim sebanyak 3 ===
+2024-09-22T01:37:04.170+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [http-nio-8080-exec-6] i.c.jamkrindo.test.service.KlaimService  :  === Mulai mengirim data wilayah kerja 2 periode Wed Jan 11 00:00:00 WIB 2023 ===
+2024-09-22T01:37:04.170+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [http-nio-8080-exec-6] i.c.jamkrindo.test.service.KlaimService  : === Sukses mengirim data Rekap Klaim sebanyak 0 ===
+2024-09-22T01:37:43.137+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] i.c.j.t.controller.KlaimControllerTest   : Starting KlaimControllerTest using Java 17.0.11 with PID 2763 (started by agungnugroho in /Users/agungnugroho/jamkrindo/jamkrindo)
+2024-09-22T01:37:43.138+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] i.c.j.t.controller.KlaimControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2024-09-22T01:37:43.502+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-22T01:37:43.540+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interface.
+2024-09-22T01:37:43.543+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-22T01:37:43.552+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 2 JPA repository interfaces.
+2024-09-22T01:37:43.957+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Starting...
+2024-09-22T01:37:44.194+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@19489b27
+2024-09-22T01:37:44.195+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Start completed.
+2024-09-22T01:37:44.257+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-22T01:37:44.314+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-22T01:37:44.345+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-22T01:37:44.642+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-22T01:37:44.701+07:00  WARN 2763 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-22T01:37:44.702+07:00  WARN 2763 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-22T01:37:45.403+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-22T01:37:45.407+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:37:45.414+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Starting...
+2024-09-22T01:37:45.438+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@5737d116
+2024-09-22T01:37:45.438+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Start completed.
+2024-09-22T01:37:45.441+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-22T01:37:45.444+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-22T01:37:45.455+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-22T01:37:45.456+07:00  WARN 2763 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-22T01:37:45.457+07:00  WARN 2763 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-22T01:37:45.482+07:00  WARN 2763 --- [Jamkrindo-Report-Claim] [main] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId
+2024-09-22T01:37:45.482+07:00  WARN 2763 --- [Jamkrindo-Report-Claim] [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId
+2024-09-22T01:37:45.538+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-22T01:37:45.538+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:37:45.752+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-22T01:37:46.005+07:00  WARN 2763 --- [Jamkrindo-Report-Claim] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-22T01:37:46.023+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-09-22T01:37:46.278+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-09-22T01:37:46.278+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-09-22T01:37:46.279+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-09-22T01:37:46.303+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] i.c.j.t.controller.KlaimControllerTest   : Started KlaimControllerTest in 3.386 seconds (process running for 4.446)
+2024-09-22T01:37:46.940+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  :  === Mulai mengirim data wilayah kerja 2 periode Tue Jan 10 00:00:00 WIB 2023 ===
+2024-09-22T01:37:46.986+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@46bbcb82 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@46bbcb82, jumlahNasabah=5, bebanKlaim=7.942742682E8)
+2024-09-22T01:37:46.990+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@7ec01440 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@7ec01440, jumlahNasabah=1, bebanKlaim=0.0)
+2024-09-22T01:37:46.993+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@f14d079 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@f14d079, jumlahNasabah=1, bebanKlaim=0.0)
+2024-09-22T01:37:46.993+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : === Sukses mengirim data Rekap Klaim sebanyak 3 ===
+2024-09-22T01:37:47.085+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : === Mulai mengirim data periode 2023-01-31 ===
+2024-09-22T01:37:47.264+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : === Sukses mengirim data sebanyak 47 ===
+2024-09-22T01:37:47.274+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:37:47.275+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool - Shutdown initiated...
+2024-09-22T01:37:47.281+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool - Shutdown completed.
+2024-09-22T01:37:47.281+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:37:47.281+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool - Shutdown initiated...
+2024-09-22T01:37:47.284+07:00  INFO 2763 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool - Shutdown completed.
+2024-09-22T01:37:58.064+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [main] i.c.j.t.repository.KlaimRepositoryTest   : Starting KlaimRepositoryTest using Java 17.0.11 with PID 2769 (started by agungnugroho in /Users/agungnugroho/jamkrindo/jamkrindo)
+2024-09-22T01:37:58.065+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [main] i.c.j.t.repository.KlaimRepositoryTest   : No active profile set, falling back to 1 default profile: "default"
+2024-09-22T01:37:58.406+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-22T01:37:58.447+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interface.
+2024-09-22T01:37:58.449+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-22T01:37:58.458+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 2 JPA repository interfaces.
+2024-09-22T01:37:58.830+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Starting...
+2024-09-22T01:37:59.092+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@23ad71bf
+2024-09-22T01:37:59.094+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Start completed.
+2024-09-22T01:37:59.143+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-22T01:37:59.193+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-22T01:37:59.221+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-22T01:37:59.486+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-22T01:37:59.558+07:00  WARN 2769 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-22T01:37:59.559+07:00  WARN 2769 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-22T01:38:00.180+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-22T01:38:00.183+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:38:00.189+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Starting...
+2024-09-22T01:38:00.203+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@65a66a75
+2024-09-22T01:38:00.203+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Start completed.
+2024-09-22T01:38:00.206+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-22T01:38:00.209+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-22T01:38:00.221+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-22T01:38:00.222+07:00  WARN 2769 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-22T01:38:00.222+07:00  WARN 2769 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-22T01:38:00.250+07:00  WARN 2769 --- [Jamkrindo-Report-Claim] [main] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId
+2024-09-22T01:38:00.250+07:00  WARN 2769 --- [Jamkrindo-Report-Claim] [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId
+2024-09-22T01:38:00.304+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-22T01:38:00.304+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:38:00.526+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-22T01:38:00.764+07:00  WARN 2769 --- [Jamkrindo-Report-Claim] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-22T01:38:00.782+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-09-22T01:38:01.085+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [main] i.c.j.t.repository.KlaimRepositoryTest   : Started KlaimRepositoryTest in 3.246 seconds (process running for 4.017)
+2024-09-22T01:38:01.728+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:38:01.729+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool - Shutdown initiated...
+2024-09-22T01:38:01.734+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool - Shutdown completed.
+2024-09-22T01:38:01.734+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:38:01.734+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool - Shutdown initiated...
+2024-09-22T01:38:01.738+07:00  INFO 2769 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool - Shutdown completed.
+2024-09-22T01:38:13.223+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.j.test.service.KlaimServiceTest      : Starting KlaimServiceTest using Java 17.0.11 with PID 2773 (started by agungnugroho in /Users/agungnugroho/jamkrindo/jamkrindo)
+2024-09-22T01:38:13.224+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.j.test.service.KlaimServiceTest      : No active profile set, falling back to 1 default profile: "default"
+2024-09-22T01:38:13.575+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-22T01:38:13.610+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interface.
+2024-09-22T01:38:13.612+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-22T01:38:13.621+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 2 JPA repository interfaces.
+2024-09-22T01:38:14.009+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Starting...
+2024-09-22T01:38:14.260+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@40d52be7
+2024-09-22T01:38:14.261+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Start completed.
+2024-09-22T01:38:14.310+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-22T01:38:14.357+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-22T01:38:14.384+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-22T01:38:14.642+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-22T01:38:14.700+07:00  WARN 2773 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-22T01:38:14.702+07:00  WARN 2773 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-22T01:38:15.323+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-22T01:38:15.326+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:38:15.330+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Starting...
+2024-09-22T01:38:15.343+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b430541
+2024-09-22T01:38:15.343+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Start completed.
+2024-09-22T01:38:15.346+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-22T01:38:15.349+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-22T01:38:15.361+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-22T01:38:15.362+07:00  WARN 2773 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-22T01:38:15.362+07:00  WARN 2773 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-22T01:38:15.388+07:00  WARN 2773 --- [Jamkrindo-Report-Claim] [main] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId
+2024-09-22T01:38:15.388+07:00  WARN 2773 --- [Jamkrindo-Report-Claim] [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId
+2024-09-22T01:38:15.451+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-22T01:38:15.451+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:38:15.667+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-22T01:38:15.913+07:00  WARN 2773 --- [Jamkrindo-Report-Claim] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-22T01:38:15.935+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-09-22T01:38:16.231+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.j.test.service.KlaimServiceTest      : Started KlaimServiceTest in 3.228 seconds (process running for 4.095)
+2024-09-22T01:38:16.756+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  :  === Mulai mengirim data wilayah kerja 2 periode Tue Jan 10 00:00:00 WIB 2023 ===
+2024-09-22T01:38:16.799+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@5a0f5567 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@5a0f5567, jumlahNasabah=5, bebanKlaim=7.942742682E8)
+2024-09-22T01:38:16.802+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@3e7940b3 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@3e7940b3, jumlahNasabah=1, bebanKlaim=0.0)
+2024-09-22T01:38:16.806+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@12f32f99 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@12f32f99, jumlahNasabah=1, bebanKlaim=0.0)
+2024-09-22T01:38:16.807+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : === Sukses mengirim data Rekap Klaim sebanyak 3 ===
+2024-09-22T01:38:16.817+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  :  === Mulai mengirim data wilayah kerja 2 periode Tue Jan 10 00:00:00 WIB 2023 ===
+2024-09-22T01:38:16.821+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@6b83ec49 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@6b83ec49, jumlahNasabah=5, bebanKlaim=7.942742682E8)
+2024-09-22T01:38:16.824+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@5f606ab6 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@5f606ab6, jumlahNasabah=1, bebanKlaim=0.0)
+2024-09-22T01:38:16.827+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@77cd1f67 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@77cd1f67, jumlahNasabah=1, bebanKlaim=0.0)
+2024-09-22T01:38:16.827+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : === Sukses mengirim data Rekap Klaim sebanyak 3 ===
+2024-09-22T01:38:16.835+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  :  === Mulai mengirim data wilayah kerja 2 periode Tue Jan 10 00:00:00 WIB 2023 ===
+2024-09-22T01:38:16.840+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@6259d7a0 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@6259d7a0, jumlahNasabah=5, bebanKlaim=7.942742682E8)
+2024-09-22T01:38:16.855+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@43600de0 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@43600de0, jumlahNasabah=1, bebanKlaim=0.0)
+2024-09-22T01:38:16.858+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@71c2cb26 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@71c2cb26, jumlahNasabah=1, bebanKlaim=0.0)
+2024-09-22T01:38:16.858+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : === Sukses mengirim data Rekap Klaim sebanyak 3 ===
+2024-09-22T01:38:16.864+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  :  === Mulai mengirim data wilayah kerja 2 periode Tue Jan 10 00:00:00 WIB 2023 ===
+2024-09-22T01:38:16.868+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@6a4f15bc RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@6a4f15bc, jumlahNasabah=5, bebanKlaim=7.942742682E8)
+2024-09-22T01:38:16.871+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@69c7fb94 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@69c7fb94, jumlahNasabah=1, bebanKlaim=0.0)
+2024-09-22T01:38:16.874+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@45ea6c24 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@45ea6c24, jumlahNasabah=1, bebanKlaim=0.0)
+2024-09-22T01:38:16.874+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : === Sukses mengirim data Rekap Klaim sebanyak 3 ===
+2024-09-22T01:38:16.880+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  :  === Mulai mengirim data wilayah kerja 2 periode Tue Jan 10 00:00:00 WIB 2023 ===
+2024-09-22T01:38:16.883+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@41ad6c00 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@41ad6c00, jumlahNasabah=5, bebanKlaim=7.942742682E8)
+2024-09-22T01:38:16.886+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@52238861 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@52238861, jumlahNasabah=1, bebanKlaim=0.0)
+2024-09-22T01:38:16.888+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@1af29a19 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@1af29a19, jumlahNasabah=1, bebanKlaim=0.0)
+2024-09-22T01:38:16.889+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : === Sukses mengirim data Rekap Klaim sebanyak 3 ===
+2024-09-22T01:38:16.902+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : === Mulai mengirim data periode 2023-01-31 ===
+2024-09-22T01:38:17.118+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : === Sukses mengirim data sebanyak 47 ===
+2024-09-22T01:38:17.118+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : === Mulai mengirim data periode 2023-01-10 ===
+2024-09-22T01:38:17.125+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : === Sukses mengirim data sebanyak 1 ===
+2024-09-22T01:38:17.132+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:38:17.132+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool - Shutdown initiated...
+2024-09-22T01:38:17.138+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool - Shutdown completed.
+2024-09-22T01:38:17.138+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:38:17.138+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool - Shutdown initiated...
+2024-09-22T01:38:17.141+07:00  INFO 2773 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool - Shutdown completed.
+2024-09-22T01:39:16.459+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [http-nio-8080-exec-9] i.c.jamkrindo.test.service.KlaimService  : === Mulai mengirim data periode 2023-01-31 ===
+2024-09-22T01:39:16.734+07:00  INFO 2723 --- [Jamkrindo-Report-Claim] [http-nio-8080-exec-9] i.c.jamkrindo.test.service.KlaimService  : === Sukses mengirim data sebanyak 47 ===
+2024-09-22T01:41:57.500+07:00  WARN 2723 --- [Jamkrindo-Report-Claim] [HikariPool housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool - Retrograde clock change detected (housekeeper delta=29s863ms), soft-evicting connections from pool.
+2024-09-22T01:41:58.806+07:00  WARN 2723 --- [Jamkrindo-Report-Claim] [HikariPool housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool - Retrograde clock change detected (housekeeper delta=29s863ms), soft-evicting connections from pool.
+2024-09-22T01:51:56.476+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] i.c.j.t.JamkrindoReportKlaimApplication  : Starting JamkrindoReportKlaimApplication using Java 17.0.11 with PID 3385 (/Users/agungnugroho/jamkrindo/jamkrindo-klaim/target/classes started by agungnugroho in /Users/agungnugroho/jamkrindo/jamkrindo-klaim)
+2024-09-22T01:51:56.479+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] i.c.j.t.JamkrindoReportKlaimApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-09-22T01:51:56.841+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-22T01:51:56.897+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interface.
+2024-09-22T01:51:56.900+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-22T01:51:56.913+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 2 JPA repository interfaces.
+2024-09-22T01:51:57.519+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-22T01:51:57.530+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-22T01:51:57.530+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-22T01:51:57.568+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-22T01:51:57.568+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1048 ms
+2024-09-22T01:51:57.614+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Starting...
+2024-09-22T01:51:57.864+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@10177794
+2024-09-22T01:51:57.865+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Start completed.
+2024-09-22T01:51:57.910+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-22T01:51:57.965+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-22T01:51:57.994+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-22T01:51:58.262+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-22T01:51:58.327+07:00  WARN 3385 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-22T01:51:58.328+07:00  WARN 3385 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-22T01:51:58.943+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-22T01:51:58.946+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:51:58.951+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Starting...
+2024-09-22T01:51:58.964+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f8d4b51
+2024-09-22T01:51:58.964+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Start completed.
+2024-09-22T01:51:58.967+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-22T01:51:58.969+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-22T01:51:58.987+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-22T01:51:58.988+07:00  WARN 3385 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-22T01:51:58.988+07:00  WARN 3385 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-22T01:51:59.007+07:00  WARN 3385 --- [Jamkrindo-Report-Claim] [main] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId
+2024-09-22T01:51:59.008+07:00  WARN 3385 --- [Jamkrindo-Report-Claim] [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId
+2024-09-22T01:51:59.049+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-22T01:51:59.049+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:51:59.214+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-22T01:51:59.347+07:00  WARN 3385 --- [Jamkrindo-Report-Claim] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-22T01:51:59.362+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-09-22T01:51:59.594+07:00  WARN 3385 --- [Jamkrindo-Report-Claim] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-09-22T01:51:59.595+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:51:59.595+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Shutdown initiated...
+2024-09-22T01:51:59.603+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Shutdown completed.
+2024-09-22T01:51:59.603+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:51:59.604+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Shutdown initiated...
+2024-09-22T01:51:59.607+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Shutdown completed.
+2024-09-22T01:51:59.621+07:00  INFO 3385 --- [Jamkrindo-Report-Claim] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-22T01:51:59.636+07:00 ERROR 3385 --- [Jamkrindo-Report-Claim] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-09-22T01:52:33.723+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] i.c.j.t.JamkrindoReportKlaimApplication  : Starting JamkrindoReportKlaimApplication using Java 17.0.11 with PID 3397 (/Users/agungnugroho/jamkrindo/jamkrindo-klaim/target/classes started by agungnugroho in /Users/agungnugroho/jamkrindo/jamkrindo-klaim)
+2024-09-22T01:52:33.725+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] i.c.j.t.JamkrindoReportKlaimApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-09-22T01:52:34.042+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-22T01:52:34.074+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interface.
+2024-09-22T01:52:34.077+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-22T01:52:34.085+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 2 JPA repository interfaces.
+2024-09-22T01:52:34.570+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-22T01:52:34.578+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-22T01:52:34.578+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-22T01:52:34.608+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-22T01:52:34.608+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 851 ms
+2024-09-22T01:52:34.645+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Starting...
+2024-09-22T01:52:34.868+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@59303963
+2024-09-22T01:52:34.870+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Start completed.
+2024-09-22T01:52:34.905+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-22T01:52:34.945+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-22T01:52:34.971+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-22T01:52:35.220+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-22T01:52:35.269+07:00  WARN 3397 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-22T01:52:35.270+07:00  WARN 3397 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-22T01:52:35.789+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-22T01:52:35.791+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:52:35.795+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Starting...
+2024-09-22T01:52:35.808+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@7bf94e91
+2024-09-22T01:52:35.808+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Start completed.
+2024-09-22T01:52:35.811+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-22T01:52:35.813+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-22T01:52:35.828+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-22T01:52:35.829+07:00  WARN 3397 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-22T01:52:35.829+07:00  WARN 3397 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-22T01:52:35.848+07:00  WARN 3397 --- [Jamkrindo-Report-Claim] [main] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId
+2024-09-22T01:52:35.849+07:00  WARN 3397 --- [Jamkrindo-Report-Claim] [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId
+2024-09-22T01:52:35.894+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-22T01:52:35.895+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:52:36.059+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-22T01:52:36.183+07:00  WARN 3397 --- [Jamkrindo-Report-Claim] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-22T01:52:36.197+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-09-22T01:52:36.421+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-22T01:52:36.430+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [main] i.c.j.t.JamkrindoReportKlaimApplication  : Started JamkrindoReportKlaimApplication in 3.037 seconds (process running for 3.49)
+2024-09-22T01:52:43.222+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-22T01:52:43.222+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-22T01:52:43.223+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-09-22T01:52:54.677+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [http-nio-8080-exec-4] i.c.jamkrindo.test.service.KlaimService  :  === Mulai mengirim data wilayah kerja 2 periode Tue Jan 10 00:00:00 WIB 2023 ===
+2024-09-22T01:52:54.750+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [http-nio-8080-exec-4] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@642b469c RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@642b469c, jumlahNasabah=5, bebanKlaim=7.942742682E8)
+2024-09-22T01:52:54.755+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [http-nio-8080-exec-4] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@4fdb3c24 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@4fdb3c24, jumlahNasabah=1, bebanKlaim=0.0)
+2024-09-22T01:52:54.758+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [http-nio-8080-exec-4] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@6571962a RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@6571962a, jumlahNasabah=1, bebanKlaim=0.0)
+2024-09-22T01:52:54.758+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [http-nio-8080-exec-4] i.c.jamkrindo.test.service.KlaimService  : === Sukses mengirim data Rekap Klaim sebanyak 3 ===
+2024-09-22T01:53:02.359+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [http-nio-8080-exec-5] i.c.jamkrindo.test.service.KlaimService  :  === Mulai mengirim data wilayah kerja 2 periode Wed Jan 11 00:00:00 WIB 2023 ===
+2024-09-22T01:53:02.360+07:00  INFO 3397 --- [Jamkrindo-Report-Claim] [http-nio-8080-exec-5] i.c.jamkrindo.test.service.KlaimService  : === Sukses mengirim data Rekap Klaim sebanyak 0 ===
+2024-09-22T01:54:53.951+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] i.c.j.t.controller.KlaimControllerTest   : Starting KlaimControllerTest using Java 17.0.11 with PID 3430 (started by agungnugroho in /Users/agungnugroho/jamkrindo/jamkrindo-klaim)
+2024-09-22T01:54:53.953+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] i.c.j.t.controller.KlaimControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2024-09-22T01:54:54.322+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-22T01:54:54.359+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
+2024-09-22T01:54:54.362+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-22T01:54:54.370+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 2 JPA repository interfaces.
+2024-09-22T01:54:54.768+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Starting...
+2024-09-22T01:54:55.037+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@590765c4
+2024-09-22T01:54:55.039+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Start completed.
+2024-09-22T01:54:55.107+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-22T01:54:55.155+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-22T01:54:55.183+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-22T01:54:55.453+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-22T01:54:55.514+07:00  WARN 3430 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-22T01:54:55.515+07:00  WARN 3430 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-22T01:54:56.182+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-22T01:54:56.185+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:54:56.191+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Starting...
+2024-09-22T01:54:56.234+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@32fd5bc
+2024-09-22T01:54:56.235+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Start completed.
+2024-09-22T01:54:56.238+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-22T01:54:56.240+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-22T01:54:56.251+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-22T01:54:56.252+07:00  WARN 3430 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-22T01:54:56.252+07:00  WARN 3430 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-22T01:54:56.275+07:00  WARN 3430 --- [Jamkrindo-Report-Claim] [main] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId
+2024-09-22T01:54:56.276+07:00  WARN 3430 --- [Jamkrindo-Report-Claim] [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId
+2024-09-22T01:54:56.324+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-22T01:54:56.324+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:54:56.541+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-22T01:54:56.815+07:00  WARN 3430 --- [Jamkrindo-Report-Claim] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-22T01:54:56.834+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-09-22T01:54:57.137+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-09-22T01:54:57.137+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-09-22T01:54:57.138+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-09-22T01:54:57.163+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] i.c.j.t.controller.KlaimControllerTest   : Started KlaimControllerTest in 3.419 seconds (process running for 4.638)
+2024-09-22T01:54:57.886+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  :  === Mulai mengirim data wilayah kerja 2 periode Tue Jan 10 00:00:00 WIB 2023 ===
+2024-09-22T01:54:57.935+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@c9234a0 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@c9234a0, jumlahNasabah=5, bebanKlaim=7.942742682E8)
+2024-09-22T01:54:57.939+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@79194b1c RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@79194b1c, jumlahNasabah=1, bebanKlaim=0.0)
+2024-09-22T01:54:57.942+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@29ceefb3 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@29ceefb3, jumlahNasabah=1, bebanKlaim=0.0)
+2024-09-22T01:54:57.942+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : === Sukses mengirim data Rekap Klaim sebanyak 3 ===
+2024-09-22T01:54:58.037+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : === Mulai mengirim data periode 2023-01-31 ===
+2024-09-22T01:54:58.314+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : === Sukses mengirim data sebanyak 47 ===
+2024-09-22T01:54:58.326+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:54:58.327+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool - Shutdown initiated...
+2024-09-22T01:54:58.337+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool - Shutdown completed.
+2024-09-22T01:54:58.337+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:54:58.338+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool - Shutdown initiated...
+2024-09-22T01:54:58.340+07:00  INFO 3430 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool - Shutdown completed.
+2024-09-22T01:55:05.363+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [main] i.c.j.t.repository.KlaimRepositoryTest   : Starting KlaimRepositoryTest using Java 17.0.11 with PID 3437 (started by agungnugroho in /Users/agungnugroho/jamkrindo/jamkrindo-klaim)
+2024-09-22T01:55:05.365+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [main] i.c.j.t.repository.KlaimRepositoryTest   : No active profile set, falling back to 1 default profile: "default"
+2024-09-22T01:55:05.717+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-22T01:55:05.751+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.
+2024-09-22T01:55:05.753+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-22T01:55:05.763+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 2 JPA repository interfaces.
+2024-09-22T01:55:06.165+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Starting...
+2024-09-22T01:55:06.409+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@286855ea
+2024-09-22T01:55:06.411+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Start completed.
+2024-09-22T01:55:06.461+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-22T01:55:06.512+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-22T01:55:06.547+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-22T01:55:06.835+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-22T01:55:06.905+07:00  WARN 3437 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-22T01:55:06.906+07:00  WARN 3437 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-22T01:55:07.555+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-22T01:55:07.558+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:55:07.565+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Starting...
+2024-09-22T01:55:07.595+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@70eb94d7
+2024-09-22T01:55:07.596+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Start completed.
+2024-09-22T01:55:07.599+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-22T01:55:07.601+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-22T01:55:07.612+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-22T01:55:07.613+07:00  WARN 3437 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-22T01:55:07.613+07:00  WARN 3437 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-22T01:55:07.642+07:00  WARN 3437 --- [Jamkrindo-Report-Claim] [main] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId
+2024-09-22T01:55:07.642+07:00  WARN 3437 --- [Jamkrindo-Report-Claim] [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId
+2024-09-22T01:55:07.692+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-22T01:55:07.692+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:55:07.890+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-22T01:55:08.136+07:00  WARN 3437 --- [Jamkrindo-Report-Claim] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-22T01:55:08.154+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-09-22T01:55:08.427+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [main] i.c.j.t.repository.KlaimRepositoryTest   : Started KlaimRepositoryTest in 3.28 seconds (process running for 4.354)
+2024-09-22T01:55:09.066+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:55:09.067+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool - Shutdown initiated...
+2024-09-22T01:55:09.086+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool - Shutdown completed.
+2024-09-22T01:55:09.086+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:55:09.087+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool - Shutdown initiated...
+2024-09-22T01:55:09.090+07:00  INFO 3437 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool - Shutdown completed.
+2024-09-22T01:55:20.332+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.j.test.service.KlaimServiceTest      : Starting KlaimServiceTest using Java 17.0.11 with PID 3442 (started by agungnugroho in /Users/agungnugroho/jamkrindo/jamkrindo-klaim)
+2024-09-22T01:55:20.333+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.j.test.service.KlaimServiceTest      : No active profile set, falling back to 1 default profile: "default"
+2024-09-22T01:55:20.692+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-22T01:55:20.728+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
+2024-09-22T01:55:20.730+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-22T01:55:20.739+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 2 JPA repository interfaces.
+2024-09-22T01:55:21.184+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Starting...
+2024-09-22T01:55:21.448+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@32091c14
+2024-09-22T01:55:21.449+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Start completed.
+2024-09-22T01:55:21.501+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-22T01:55:21.554+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-22T01:55:21.590+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-22T01:55:21.843+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-22T01:55:21.904+07:00  WARN 3442 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-22T01:55:21.905+07:00  WARN 3442 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-22T01:55:22.527+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-22T01:55:22.530+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:55:22.536+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Starting...
+2024-09-22T01:55:22.551+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@1afa048a
+2024-09-22T01:55:22.551+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool - Start completed.
+2024-09-22T01:55:22.555+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-22T01:55:22.558+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-22T01:55:22.571+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-22T01:55:22.573+07:00  WARN 3442 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-22T01:55:22.573+07:00  WARN 3442 --- [Jamkrindo-Report-Claim] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-22T01:55:22.601+07:00  WARN 3442 --- [Jamkrindo-Report-Claim] [main] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId
+2024-09-22T01:55:22.602+07:00  WARN 3442 --- [Jamkrindo-Report-Claim] [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId
+2024-09-22T01:55:22.652+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-22T01:55:22.652+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:55:22.847+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-22T01:55:23.124+07:00  WARN 3442 --- [Jamkrindo-Report-Claim] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-22T01:55:23.147+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-09-22T01:55:23.428+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.j.test.service.KlaimServiceTest      : Started KlaimServiceTest in 3.304 seconds (process running for 4.105)
+2024-09-22T01:55:23.987+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  :  === Mulai mengirim data wilayah kerja 2 periode Tue Jan 10 00:00:00 WIB 2023 ===
+2024-09-22T01:55:24.051+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@4f93303f RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@4f93303f, jumlahNasabah=5, bebanKlaim=7.942742682E8)
+2024-09-22T01:55:24.055+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@234dfc8e RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@234dfc8e, jumlahNasabah=1, bebanKlaim=0.0)
+2024-09-22T01:55:24.060+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@5fa0943d RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@5fa0943d, jumlahNasabah=1, bebanKlaim=0.0)
+2024-09-22T01:55:24.061+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : === Sukses mengirim data Rekap Klaim sebanyak 3 ===
+2024-09-22T01:55:24.086+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  :  === Mulai mengirim data wilayah kerja 2 periode Tue Jan 10 00:00:00 WIB 2023 ===
+2024-09-22T01:55:24.091+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@198a653 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@198a653, jumlahNasabah=5, bebanKlaim=7.942742682E8)
+2024-09-22T01:55:24.098+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@647d3279 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@647d3279, jumlahNasabah=1, bebanKlaim=0.0)
+2024-09-22T01:55:24.102+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@7c1f3125 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@7c1f3125, jumlahNasabah=1, bebanKlaim=0.0)
+2024-09-22T01:55:24.102+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : === Sukses mengirim data Rekap Klaim sebanyak 3 ===
+2024-09-22T01:55:24.110+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  :  === Mulai mengirim data wilayah kerja 2 periode Tue Jan 10 00:00:00 WIB 2023 ===
+2024-09-22T01:55:24.133+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@2e5ff1d4 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@2e5ff1d4, jumlahNasabah=5, bebanKlaim=7.942742682E8)
+2024-09-22T01:55:24.137+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@5220e6ff RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@5220e6ff, jumlahNasabah=1, bebanKlaim=0.0)
+2024-09-22T01:55:24.142+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@62109320 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@62109320, jumlahNasabah=1, bebanKlaim=0.0)
+2024-09-22T01:55:24.142+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : === Sukses mengirim data Rekap Klaim sebanyak 3 ===
+2024-09-22T01:55:24.151+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  :  === Mulai mengirim data wilayah kerja 2 periode Tue Jan 10 00:00:00 WIB 2023 ===
+2024-09-22T01:55:24.155+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@7bca98d5 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@7bca98d5, jumlahNasabah=5, bebanKlaim=7.942742682E8)
+2024-09-22T01:55:24.161+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@7976d382 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@7976d382, jumlahNasabah=1, bebanKlaim=0.0)
+2024-09-22T01:55:24.183+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@318beab4 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@318beab4, jumlahNasabah=1, bebanKlaim=0.0)
+2024-09-22T01:55:24.183+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : === Sukses mengirim data Rekap Klaim sebanyak 3 ===
+2024-09-22T01:55:24.191+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  :  === Mulai mengirim data wilayah kerja 2 periode Tue Jan 10 00:00:00 WIB 2023 ===
+2024-09-22T01:55:24.198+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@4582da06 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@4582da06, jumlahNasabah=5, bebanKlaim=7.942742682E8)
+2024-09-22T01:55:24.202+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@23b02f37 RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@23b02f37, jumlahNasabah=1, bebanKlaim=0.0)
+2024-09-22T01:55:24.206+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : data id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@18a349cb RekapKlaim(id=id.co.jamkrindo.test.dbpenampungan.entity.RekapKlaimId@18a349cb, jumlahNasabah=1, bebanKlaim=0.0)
+2024-09-22T01:55:24.206+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : === Sukses mengirim data Rekap Klaim sebanyak 3 ===
+2024-09-22T01:55:24.222+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : === Mulai mengirim data periode 2023-01-31 ===
+2024-09-22T01:55:24.504+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : === Sukses mengirim data sebanyak 47 ===
+2024-09-22T01:55:24.504+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : === Mulai mengirim data periode 2023-01-10 ===
+2024-09-22T01:55:24.512+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [main] i.c.jamkrindo.test.service.KlaimService  : === Sukses mengirim data sebanyak 1 ===
+2024-09-22T01:55:24.521+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:55:24.522+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool - Shutdown initiated...
+2024-09-22T01:55:24.534+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool - Shutdown completed.
+2024-09-22T01:55:24.535+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T01:55:24.535+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool - Shutdown initiated...
+2024-09-22T01:55:24.539+07:00  INFO 3442 --- [Jamkrindo-Report-Claim] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool - Shutdown completed.
