@@ -100,7 +100,6 @@ public class KlaimService {
 
                 RekapKlaim rekapKlaim = RekapKlaim.builder()
                         .id(rekapKlaimId)
-                        .jumlahNasabah(detail.getJumlahNasabah())
                         .bebanKlaim(detail.getBebanKlaim())
                         .build();
 
@@ -121,11 +120,11 @@ public class KlaimService {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         Date date = sdf.parse(periode);
         ExportKlaimResponse exportKlaimResponse = new ExportKlaimResponse();
-        log.info("=== Mulai mengirim data periode {} ===", periode);
+        log.info("=== Mulai mengirim data Klaim periode {} ===", periode);
         try{
-            List<Klaim> kurKlaims = klaimRepository.findAllBySubCobAndPeriode("KUR", date);
-            for(Klaim klaim : kurKlaims){
 
+            List<Klaim> klaims = klaimRepository.findAllByPeriode( date);
+            for(Klaim klaim : klaims){
                 klaimPenampunganRepository.save(
                         KlaimPenampungan.builder()
                                 .id(klaim.getId())
@@ -141,27 +140,9 @@ public class KlaimService {
                 );
             }
 
-            List<Klaim> penKlaims = klaimRepository.findAllBySubCobAndPeriode("PEN", date);
-            for(Klaim klaim : penKlaims){
+            int size = klaims.size();
 
-                klaimPenampunganRepository.save(
-                        KlaimPenampungan.builder()
-                                .id(klaim.getId())
-                                .subCob("PEN")
-                                .penyebabKlaim(klaim.getPenyebabKlaim())
-                                .periode(klaim.getPeriode())
-                                .idWilker(klaim.getIdWilker())
-                                .tglKeputusanKlaim(klaim.getTglKeputusanKlaim())
-                                .jumlahTerjamin(klaim.getJumlahTerjamin())
-                                .nilaiBebanKlaim(klaim.getNilaiBebanKlaim())
-                                .debetKredit(klaim.getDebetKredit())
-                                .build()
-                );
-            }
-
-            int size = kurKlaims.size()+penKlaims.size();
-
-            log.info("=== Sukses mengirim data sebanyak {} ===",size);
+            log.info("=== Sukses mengirim data Klaim sebanyak {} ===",size);
 
             exportKlaimResponse.setStatus("Sukses");
             exportKlaimResponse.setSize(size);

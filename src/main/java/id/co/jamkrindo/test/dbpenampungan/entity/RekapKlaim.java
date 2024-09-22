@@ -18,9 +18,6 @@ public class RekapKlaim {
     @EmbeddedId
     private RekapKlaimId id;
 
-    @Column(name = "jumlah_terjamin")
-    private int jumlahNasabah;
-
     @Column(name = "nilai_beban_klaim")
     private Double bebanKlaim;
 

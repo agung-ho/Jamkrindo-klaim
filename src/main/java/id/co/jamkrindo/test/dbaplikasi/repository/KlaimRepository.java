@@ -13,6 +13,13 @@ import java.util.List;
 @Repository
 public interface KlaimRepository extends JpaRepository<Klaim, Long> {
 
+    @Query(value = "select k.* from klaim k " +
+            "where " +
+            "k.periode = ?1 " +
+            "and k.sub_cob in ('KUR','PEN')"
+            , nativeQuery = true)
+    List<Klaim> findAllByPeriode(Date periode);
+
     List<Klaim> findAllBySubCobAndPeriode(String subCob, Date periode);
 
     @Query(value = "select k.sub_cob as subCob, k.penyebab_klaim as penyebabKlaim , " +

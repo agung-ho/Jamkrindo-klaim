@@ -1,6 +1,6 @@
 # jamkrindo-klaim# Jamkrindo Report Klaim
 
-Database resourse docs/script.sql
+Database resource docs/script.sql
 
 Home page
 http://localhost:8080/

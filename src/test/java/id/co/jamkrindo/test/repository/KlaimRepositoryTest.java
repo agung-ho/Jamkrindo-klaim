@@ -41,4 +41,12 @@ public class KlaimRepositoryTest {
         Assertions.assertEquals(8 , klaimRepository.findAllBySubCobAndPeriode("PEN", sdf.parse("2023-01-31")).size());
 
     }
+
+    @Test
+    void findAllByPeriodeTest() throws ParseException {
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+
+        Assertions.assertEquals(47 , klaimRepository.findAllByPeriode( sdf.parse("2023-01-31")).size());
+
+    }
 }

@@ -325,7 +325,6 @@ create table penampungan.rekap_klaim
     periode_klaim     date                        not null,
     sub_cob           varchar(20)                 not null,
     penyebab_klaim    varchar(20)                 not null,
-    jumlah_terjamin   int            default 0    not null,
     nilai_beban_klaim decimal(20, 2) default 0.00 not null,
     primary key (id_wilker, periode_klaim, sub_cob, penyebab_klaim)
 );
